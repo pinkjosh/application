@@ -1,4 +1,6 @@
-   def Deploy() {
+#!groovy
+
+def Deploy() {
    sh '''#!/bin/bash -xe
       echo "hello world!"
       '''.stripIndent()
