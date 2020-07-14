@@ -1,8 +1,8 @@
 #!groovy
 
 def Deploy() {
-   //sh '''#!/bin/bash -xe
-      println "hello world!"
-     // '''.stripIndent()
+   sh '''
+      echo "hello world!"
+   '''.stripIndent()
 }
 return this;
