@@ -1,8 +1,6 @@
 #!groovy
 
 def Deploy() {
-   sh '''
-      echo "hello world!"
-   '''.stripIndent()
+  'echo "hello world!"'.stripIndent().execute()
 }
 return this;
