@@ -2,7 +2,7 @@
 
 def Deploy() {
    //sh '''#!/bin/bash -xe
-      sh '''echo "hello world!"'''
+      println "hello world!"
      // '''.stripIndent()
 }
 return this;
